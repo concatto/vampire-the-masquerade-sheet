@@ -1,0 +1,124 @@
+#root {
+    text-align: center;
+}
+
+#sheet-container {
+    margin: 20px 0px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#sheet-container img {
+    margin: 10px auto;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+.column {
+    width: 300px;
+    display: inline-block;
+}
+
+.column > div {
+    margin: 10px 30px;
+    position: relative;
+}
+
+.column span {
+    display: table-cell;
+}
+
+.column div > span:first-of-type {
+    padding-right: 6px;
+}
+
+.column div > span:last-of-type {
+    width: 100%;
+}
+
+.char > div {
+    margin: 10px 15px;
+}
+
+p {
+    display: inline-block;
+}
+
+.column-title {
+    display: block;
+    text-align: center;
+}
+
+.column div > span.levels {
+    height: 5px;
+    width: auto;
+    position: absolute;
+    right: 0px;
+    top: 4px;
+}
+
+.level {
+    display: inline-block;
+    margin: 0px 3px;
+    width: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 7px 0px 2px;
+    cursor: pointer;
+}
+
+.level-filled {
+    background-color: #000000;
+}
+
+.level-fixed {
+    cursor: default;
+}
+
+#advantages input[type="text"] {
+    width: 150px;
+}
+
+#advantages .column:last-of-type > div:not(:last-of-type) {
+    padding-bottom: 30px;
+}
+
+.column .sub-column {
+    display: inline-block;
+    width: 150px;
+    margin: 10px 10px;
+}
+
+.sub-column:last-of-type {
+    width: 50px;
+}
+
+#health > div > span:first-of-type {
+    width: 180px;
+    text-align: left;
+}
+
+#health > div > span:last-of-type {
+    width: 20px;
+}
+
+#health > div {
+    position: relative;
+    margin-bottom: 4px;
+}
+
+#health > div:last-of-type {
+    margin-bottom: 0px;
+}
+
+#health input[type="checkbox"] {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

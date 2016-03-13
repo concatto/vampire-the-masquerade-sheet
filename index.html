@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title>Character Sheet - Vampire: The Masquerade</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="core.js"></script>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <div id="root">
+            <div id="sheet-container">
+                <img id="title-image" src="title.png"/>
+                <div id="character" class="section">
+                    <div class="column char">
+                        <div><span>Nome:</span><span><input type="text"/></span></div>
+                        <div><span>Jogador:</span><span><input type="text"/></span></div>
+                        <div><span>Crônica:</span><span><input type="text"/></span></div>
+                    </div>
+                    <div class="column char">
+                        <div><span>Natureza:</span><span><input type="text"/></span></div>
+                        <div><span>Comportamento:</span><span><input type="text"/></span></div>
+                        <div><span>Conceito:</span><span><input type="text"/></span></div>
+                    </div>
+                    <div class="column char">
+                        <div><span>Clã:</span><span><input type="text"/></span></div>
+                        <div><span>Geração:</span><span><input type="text"/></span></div>
+                        <div><span>Senhor:</span><span><input type="text"/></span></div>
+                    </div>
+                </div>
+                <div id="attributes" class="section">
+                    <img src="attributes.png"/>
+                    <div class="column">
+                        <p class="column-title">Físico</p>
+                    </div>
+                    <div class="column">
+                        <p class="column-title">Social</p>
+                    </div>
+                    <div class="column">
+                        <p class="column-title">Mental</p>
+                    </div>
+                </div>
+                <div id="abilities" class="section">
+                    <img src="abilities.png"/>
+                    <div class="column">
+                        <p class="column-title">Talentos</p>
+                    </div>
+                    <div class="column">
+                        <p class="column-title">Perícias</p>
+                    </div>
+                    <div class="column">
+                        <p class="column-title">Conhecimentos</p>
+                    </div>
+                </div>
+                <div id="advantages" class="section">
+                    <img src="advantages.png"/>
+                    <div class="column">
+                        <p class="column-title">Antecedentes</p>
+                    </div>
+                    <div class="column">
+                        <p class="column-title">Disciplinas</p>
+                    </div>
+                    <div class="column">
+                        <p class="column-title">Virtudes</p>
+                    </div>
+                </div>
+                <div id="misc">
+                    <img src="section-separator.png"/>
+                    <div class="column">
+                        <img src="merits-flaws.png"/>
+                        <div class="sub-column">
+                            <span>Qualidades</span>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <span>Defeitos</span>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                        </div>
+                        <div class="sub-column">
+                            <span>Custo</span>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <span>Custo</span>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                            <input type="text"/>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="section" id="humanity">
+                            <img src="humanity-path.png"/>
+                            <input type="text"/>
+                        </div>
+                        <div class="section" id="willpower">
+                            <img src="willpower.png"/>
+                        </div>
+                        <div class="section" id="bloodpool">
+                            <img src="humanity-path.png"/>
+                            <div><span class="small-text">Pontos por turno:</span><input type="text"/></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="section" id="health">
+                            <img src="health.png"/>
+                        </div>
+                        <div class="section" id="weakness">
+                            <img src="weakness.png"/>
+                            <input type="text"/>
+                        </div>
+                        <div class="section" id="experience">
+                            <img src="experience.png"/>
+                            <input type="text"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
